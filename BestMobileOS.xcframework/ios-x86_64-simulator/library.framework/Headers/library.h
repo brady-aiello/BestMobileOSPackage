@@ -135,9 +135,12 @@ __attribute__((swift_name("KotlinBoolean")))
 @end;
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("BestMobileOSKt")))
-@interface LibraryBestMobileOSKt : LibraryBase
-+ (NSString *)bestMobileOS __attribute__((swift_name("bestMobileOS()")));
+__attribute__((swift_name("BestMobileOS")))
+@interface LibraryBestMobileOS : LibraryBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)bestMobileOS __attribute__((swift_name("init()")));
+- (NSString *)bestMobileOS __attribute__((swift_name("bestMobileOS()")));
 @end;
 
 #pragma clang diagnostic pop
