@@ -1,0 +1,6 @@
+framework module BestMobileOS {
+    umbrella header "BestMobileOS.h"
+
+    export *
+    module * { export * }
+}

@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
     <key>CFBundleExecutable</key>
-    <string>library</string>
+    <string>BestMobileOS</string>
     <key>CFBundleIdentifier</key>
-    <string>me.bradyaiello.library.library</string>
+    <string>me.bradyaiello.library.BestMobileOS</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
-    <string>library</string>
+    <string>BestMobileOS</string>
     <key>CFBundlePackageType</key>
     <string>FMWK</string>
     <key>CFBundleShortVersionString</key>

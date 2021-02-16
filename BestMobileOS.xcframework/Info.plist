@@ -5,12 +5,10 @@
 	<key>AvailableLibraries</key>
 	<array>
 		<dict>
-			<key>DebugSymbolsPath</key>
-			<string>dSYMs</string>
 			<key>LibraryIdentifier</key>
 			<string>ios-x86_64-simulator</string>
 			<key>LibraryPath</key>
-			<string>library.framework</string>
+			<string>BestMobileOS.framework</string>
 			<key>SupportedArchitectures</key>
 			<array>
 				<string>x86_64</string>
